@@ -8,7 +8,7 @@ export default function About() {
   const stats = [
     { label: t('about.stat1'), value: "2020", icon: Calendar },
     { label: t('about.stat2'), value: "4 max", icon: Users },
-    { label: t('about.stat3'), value: "50 min", icon: GraduationCap },
+    { label: t('about.stat3'), value: "60 min", icon: GraduationCap },
   ];
 
   return (
