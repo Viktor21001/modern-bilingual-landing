@@ -32,8 +32,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-        <a href="#" className="font-heading font-bold text-xl md:text-2xl text-primary tracking-tight">
-          English<span className="text-foreground">Tutor</span>.
+        <a href="#" className="font-heading font-bold text-xl md:text-2xl text-primary tracking-tight" data-testid="link-brand-home">
+          MY<span className="text-foreground">English</span>
         </a>
 
         {/* Desktop Nav */}
@@ -54,12 +54,13 @@ export default function Navbar() {
             <button 
               onClick={toggleLanguage}
               className="flex items-center gap-1.5 text-sm font-medium hover:text-primary transition-colors"
+              data-testid="toggle-language-top"
             >
               <Globe className="h-4 w-4" />
               <span>{i18n.language.toUpperCase()}</span>
             </button>
             
-            <Button className="rounded-full px-6" onClick={() => window.location.href = '#contact'}>
+            <Button className="rounded-full px-6" onClick={() => window.location.href = '#contact'} data-testid="button-nav-cta">
               {t('nav.book')}
             </Button>
           </div>
@@ -70,6 +71,7 @@ export default function Navbar() {
           <button 
             onClick={toggleLanguage}
             className="flex items-center gap-1.5 text-sm font-medium"
+            data-testid="toggle-language-mobile"
           >
             <span>{i18n.language.toUpperCase()}</span>
           </button>

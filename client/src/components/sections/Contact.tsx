@@ -29,6 +29,7 @@ export default function Contact() {
               size="lg" 
               className="h-14 px-10 rounded-full text-lg shadow-xl shadow-primary/25 hover:shadow-primary/40 transition-shadow"
               onClick={() => window.open('https://t.me/username', '_blank')}
+              data-testid="button-contact-telegram"
             >
               <Send className="mr-2 h-5 w-5" />
               {t('contact.button')}

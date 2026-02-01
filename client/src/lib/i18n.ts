@@ -13,46 +13,50 @@ const resources = {
         book: "Book Trial"
       },
       hero: {
-        title: "Online Private English Lessons — Personal, Effective, Result-Oriented",
-        subtitle: "Master English with a certified TESOL tutor. Personalized online lessons tailored to your goals.",
+        title: "MYEnglish — Mini-Group & Personal English Lessons",
+        subtitle: "Join cozy offline mini-groups (up to 4 people) in my office. Need online or 1:1? We can arrange it individually.",
         experience: "Teaching since 2020",
         cta_trial: "Book a Free Trial Lesson",
         cta_contact: "Contact via Telegram"
       },
       about: {
-        title: "About Your Tutor",
-        intro: "Hello! I am a certified English tutor dedicated to helping you achieve fluency.",
-        desc1: "With a degree in Linguistics and a TESOL certification, I have been teaching students of all ages since 2020.",
-        desc2: "I specialize in creating individual learning plans that work for YOU, whether you are a complete beginner or looking to polish your advanced skills.",
-        stat1: "Years Experience",
-        stat2: "Students Taught",
-        stat3: "Lessons Given"
+        title: "About MYEnglish",
+        intro: "Hi! I’m a certified English teacher helping students speak confidently — in a calm, friendly environment.",
+        desc1: "I’ve been teaching since 2020, I’m TESOL certified, and I have a degree in English/Linguistics.",
+        desc2: "The main format is offline mini-group lessons (max 4) in my office. Online lessons and personal 1:1 sessions are also available — we discuss and choose what fits your goals.",
+        stat1: "Teaching since",
+        stat2: "Mini-group size",
+        stat3: "Lesson length"
       },
       process: {
-        title: "How Online Lessons Work",
-        step1_title: "Connect Online",
-        step1_desc: "We meet on Zoom or Google Meet from the comfort of your home.",
-        step2_title: "Interactive Materials",
-        step2_desc: "Engaging lessons using modern digital tools and resources.",
-        step3_title: "Speaking Practice",
-        step3_desc: "Focus on real communication and confidence building.",
-        step4_title: "Track Progress",
-        step4_desc: "Regular feedback and homework to ensure steady improvement."
+        title: "How Lessons Work",
+        step1_title: "Choose Your Format",
+        step1_desc: "Main option: offline mini-groups (max 4) in my office. Online or 1:1 is available by arrangement.",
+        step2_title: "Interactive Practice",
+        step2_desc: "Modern materials, real-life topics, and plenty of speaking time.",
+        step3_title: "Clear Structure",
+        step3_desc: "Step-by-step progress: vocabulary, grammar, and fluency — without overload.",
+        step4_title: "Support Between Lessons",
+        step4_desc: "Homework, feedback, and progress tracking so you stay consistent."
       },
       services: {
-        title: "Services & Pricing",
+        title: "Formats & Pricing",
         price: "2000 RUB",
         per_lesson: "per lesson",
         duration: "50 minutes",
+        format_primary_title: "Offline mini-group (max 4)",
+        format_primary_desc: "A small group in my office: more speaking, more motivation, friendly atmosphere.",
+        format_other_title: "Online & 1:1 by arrangement",
+        format_other_desc: "Online lessons or personal 1:1 sessions in the office can be discussed individually.",
         includes: [
-          "Personalized curriculum",
-          "Interactive exercises",
-          "Speaking focus",
-          "Homework checking",
-          "Flexible scheduling"
+          "Mini-group speaking practice",
+          "Clear structure and goals",
+          "Modern interactive materials",
+          "Homework + feedback",
+          "Progress tracking"
         ],
         trial_title: "Free Trial Lesson",
-        trial_desc: "Get to know my teaching style and discuss your goals. Duration varies based on your level."
+        trial_desc: "A quick meeting to check your level and choose the best format (mini-group, online, or 1:1). Duration varies, including for absolute beginners."
       },
       audience: {
         title: "Who These Lessons Are For",
@@ -82,22 +86,22 @@ const resources = {
         }
       },
       whyme: {
-        title: "Why Choose Me",
+        title: "Why Choose MYEnglish",
         reasons: [
-          { title: "Online Convenience", desc: "Learn from anywhere in the world." },
-          { title: "Individual Approach", desc: "Lessons tailored specifically to your needs." },
-          { title: "Clear Structure", desc: "Systematic approach to grammar and vocabulary." },
-          { title: "Real Speaking", desc: "Maximum student talking time." }
+          { title: "Mini-groups (max 4)", desc: "You get attention and speaking time — without the stress of a big class." },
+          { title: "Offline office format", desc: "A focused space for learning, with all materials ready." },
+          { title: "Flexible options", desc: "Online lessons and personal 1:1 sessions are available by arrangement." },
+          { title: "Experience since 2020", desc: "Certified TESOL teacher with a profile degree in English/Linguistics." }
         ]
       },
       contact: {
-        title: "Ready to Start?",
-        subtitle: "Message me on Telegram to book your free online trial lesson.",
+        title: "Let’s pick the right format",
+        subtitle: "Message me on Telegram to book your free trial lesson and discuss: mini-group in the office, online, or 1:1.",
         button: "Message on Telegram"
       },
       footer: {
-        role: "Online Private English Tutor",
-        copyright: "© 2024. All rights reserved."
+        role: "English lessons: mini-groups (max 4) + online / 1:1 by arrangement",
+        copyright: "© 2026 MYEnglish. All rights reserved."
       }
     }
   },
@@ -112,46 +116,50 @@ const resources = {
         book: "Пробный урок"
       },
       hero: {
-        title: "Индивидуальные уроки английского — Лично, Эффективно, На Результат",
-        subtitle: "Выучите английский с сертифицированным преподавателем (TESOL). Персональные онлайн-уроки под ваши цели.",
+        title: "MYEnglish — Мини‑группы и персональные уроки английского",
+        subtitle: "Основной формат — офлайн мини‑группы до 4 человек в моём кабинете. Онлайн и 1:1 тоже возможны — обсудим индивидуально.",
         experience: "Опыт с 2020 года",
-        cta_trial: "Записаться на бесплатный урок",
-        cta_contact: "Связаться в Telegram"
+        cta_trial: "Записаться на бесплатный пробный урок",
+        cta_contact: "Написать в Telegram"
       },
       about: {
-        title: "О преподавателе",
-        intro: "Привет! Я сертифицированный репетитор английского, и я помогу вам заговорить свободно.",
-        desc1: "Имею диплом лингвиста и сертификат TESOL. Преподаю детям и взрослым с 2020 года.",
-        desc2: "Я разрабатываю индивидуальные планы обучения, которые подходят именно ВАМ, будь вы новичок или продвинутый ученик.",
-        stat1: "Лет опыта",
-        stat2: "Учеников",
-        stat3: "Проведено уроков"
+        title: "О MYEnglish",
+        intro: "Привет! Я сертифицированный преподаватель английского и помогаю ученикам говорить уверенно — спокойно и по делу.",
+        desc1: "Преподаю с 2020 года. Есть сертификат TESOL и профильное образование (английский/лингвистика).",
+        desc2: "Основной формат — офлайн мини‑группы (до 4 человек) в моём кабинете. Онлайн‑занятия и персональные уроки 1:1 тоже доступны — формат выбираем вместе под ваши цели.",
+        stat1: "Опыт",
+        stat2: "Мини‑группа",
+        stat3: "Длительность"
       },
       process: {
-        title: "Как проходят уроки",
-        step1_title: "Онлайн формат",
-        step1_desc: "Занимаемся в Zoom или Google Meet в удобном для вас месте.",
-        step2_title: "Интерактивные материалы",
-        step2_desc: "Увлекательные уроки с использованием современных цифровых ресурсов.",
-        step3_title: "Разговорная практика",
-        step3_desc: "Упор на живое общение и преодоление языкового барьера.",
-        step4_title: "Прогресс и ДЗ",
-        step4_desc: "Регулярная обратная связь и проверка домашних заданий."
+        title: "Как проходят занятия",
+        step1_title: "Выбираем формат",
+        step1_desc: "Основной формат — офлайн мини‑группы до 4 человек в кабинете. Онлайн и 1:1 возможны по договорённости.",
+        step2_title: "Интерактивная практика",
+        step2_desc: "Современные материалы, живые темы и много разговорной практики.",
+        step3_title: "Понятная структура",
+        step3_desc: "Двигаемся по плану: лексика, грамматика, беглость — без перегруза.",
+        step4_title: "Поддержка между уроками",
+        step4_desc: "Домашние задания, обратная связь и контроль прогресса."
       },
       services: {
-        title: "Услуги и Стоимость",
+        title: "Форматы и стоимость",
         price: "2000 ₽",
         per_lesson: "за урок",
         duration: "50 минут",
+        format_primary_title: "Офлайн мини‑группа (до 4) ",
+        format_primary_desc: "Небольшая группа в кабинете: больше говорения, больше мотивации, дружелюбная атмосфера.",
+        format_other_title: "Онлайн и 1:1 по договорённости",
+        format_other_desc: "Онлайн‑занятия или персональные уроки 1:1 в кабинете — обсудим индивидуально.",
         includes: [
-          "Персональная программа",
-          "Интерактивные упражнения",
-          "Упор на говорение",
-          "Проверка домашних заданий",
-          "Гибкое расписание"
+          "Разговорная практика в мини‑группе",
+          "Понятная структура и цели",
+          "Современные интерактивные материалы",
+          "ДЗ + обратная связь",
+          "Отслеживание прогресса"
         ],
         trial_title: "Бесплатный пробный урок",
-        trial_desc: "Познакомимся, определим уровень и обсудим цели. Длительность зависит от уровня."
+        trial_desc: "Короткая встреча, чтобы определить уровень и выбрать формат: мини‑группа, онлайн или 1:1. Длительность зависит от уровня, включая A0."
       },
       audience: {
         title: "Для кого эти уроки",
@@ -181,22 +189,22 @@ const resources = {
         }
       },
       whyme: {
-        title: "Почему выбирают меня",
+        title: "Почему MYEnglish",
         reasons: [
-          { title: "Удобство онлайн", desc: "Занимайтесь из любой точки мира." },
-          { title: "Индивидуальный подход", desc: "Уроки создаются специально под ваши нужды." },
-          { title: "Четкая структура", desc: "Системный подход к грамматике и лексике." },
-          { title: "Реальное общение", desc: "Максимум разговорной практики на уроке." }
+          { title: "Мини‑группы до 4", desc: "Достаточно внимания и времени на говорение — без \"толпы\"." },
+          { title: "Офлайн в кабинете", desc: "Спокойное пространство для занятий, все материалы под рукой." },
+          { title: "Гибкие варианты", desc: "Онлайн и персональные уроки 1:1 доступны по договорённости." },
+          { title: "Опыт с 2020", desc: "Сертификат TESOL и профильное образование (английский/лингвистика)." }
         ]
       },
       contact: {
-        title: "Готовы начать?",
-        subtitle: "Напишите мне в Telegram, чтобы записаться на бесплатный пробный урок.",
+        title: "Давайте выберем формат",
+        subtitle: "Напишите мне в Telegram, чтобы записаться на бесплатный пробный урок и обсудить: мини‑группа в кабинете, онлайн или 1:1.",
         button: "Написать в Telegram"
       },
       footer: {
-        role: "Частный репетитор английского онлайн",
-        copyright: "© 2024. Все права защищены."
+        role: "Английский: мини‑группы (до 4) + онлайн / 1:1 по договорённости",
+        copyright: "© 2026 MYEnglish. Все права защищены."
       }
     }
   }

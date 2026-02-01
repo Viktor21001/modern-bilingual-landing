@@ -48,14 +48,18 @@ export default function Hero() {
               </Button>
             </div>
 
-            <div className="mt-10 flex items-center justify-center md:justify-start gap-6 text-sm text-muted-foreground">
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-primary" />
                 <span>TESOL Certified</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-primary" />
-                <span>Online Expert</span>
+                <span>Offline mini-groups (max 4)</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-primary" />
+                <span>Online & 1:1 by arrangement</span>
               </div>
             </div>
           </motion.div>
@@ -84,8 +88,8 @@ export default function Hero() {
                   A+
                 </div>
                 <div>
-                  <p className="font-bold text-sm">Result Oriented</p>
-                  <p className="text-xs text-muted-foreground">Personalized Plans</p>
+                  <p className="font-bold text-sm">Mini-group focus</p>
+                  <p className="text-xs text-muted-foreground">Up to 4 students</p>
                 </div>
               </motion.div>
             </div>

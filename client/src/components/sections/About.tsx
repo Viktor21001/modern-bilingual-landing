@@ -6,9 +6,9 @@ export default function About() {
   const { t } = useTranslation();
 
   const stats = [
-    { label: t('about.stat1'), value: "4+", icon: Calendar },
-    { label: t('about.stat2'), value: "100+", icon: Users },
-    { label: t('about.stat3'), value: "5000+", icon: GraduationCap },
+    { label: t('about.stat1'), value: "2020", icon: Calendar },
+    { label: t('about.stat2'), value: "4 max", icon: Users },
+    { label: t('about.stat3'), value: "50 min", icon: GraduationCap },
   ];
 
   return (

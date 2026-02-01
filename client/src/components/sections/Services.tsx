@@ -20,18 +20,27 @@ export default function Services() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('services.title')}</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Invest in your future with high-quality, personalized English instruction. 
-              No hidden fees, just effective learning.
+              Choose the format that fits you: offline mini-groups in my office (max 4), or online / personal 1:1 by arrangement.
             </p>
             
-            <div className="bg-secondary/30 p-8 rounded-2xl border border-secondary">
-              <div className="flex items-start gap-4 mb-4">
+            <div className="bg-secondary/30 p-8 rounded-2xl border border-secondary space-y-6">
+              <div className="flex items-start gap-4">
                 <div className="bg-primary/20 p-2 rounded-lg text-primary">
                   <Sparkles className="h-6 w-6" />
                 </div>
                 <div>
                   <h3 className="font-bold text-xl mb-2">{t('services.trial_title')}</h3>
                   <p className="text-muted-foreground">{t('services.trial_desc')}</p>
+                </div>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="bg-white/70 border rounded-2xl p-5">
+                  <div className="text-sm font-semibold text-primary mb-1">{t('services.format_primary_title')}</div>
+                  <div className="text-sm text-muted-foreground">{t('services.format_primary_desc')}</div>
+                </div>
+                <div className="bg-white/70 border rounded-2xl p-5">
+                  <div className="text-sm font-semibold text-primary mb-1">{t('services.format_other_title')}</div>
+                  <div className="text-sm text-muted-foreground">{t('services.format_other_desc')}</div>
                 </div>
               </div>
             </div>
@@ -48,7 +57,7 @@ export default function Services() {
             <div className="relative bg-white border rounded-3xl p-8 md:p-10 shadow-xl">
               <div className="flex justify-between items-start mb-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground">Individual Lesson</h3>
+                  <h3 className="text-2xl font-bold text-foreground">{t('services.format_primary_title')}</h3>
                   <p className="text-muted-foreground">{t('services.duration')}</p>
                 </div>
                 <div className="text-right">
@@ -68,7 +77,7 @@ export default function Services() {
                 ))}
               </div>
 
-              <Button className="w-full h-12 text-base rounded-xl shadow-lg shadow-primary/20" onClick={() => window.location.href = '#contact'}>
+              <Button className="w-full h-12 text-base rounded-xl shadow-lg shadow-primary/20" onClick={() => window.location.href = '#contact'} data-testid="button-pricing-cta">
                 {t('hero.cta_trial')}
               </Button>
             </div>
