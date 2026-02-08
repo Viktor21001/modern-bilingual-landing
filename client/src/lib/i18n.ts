@@ -10,7 +10,7 @@ const resources = {
         pricing: "Pricing",
         reviews: "Reviews",
         contact: "Contact",
-        book: "Book Trial"
+        book: "Book a Lesson"
       },
       hero: {
         title: "MYEnglish — Mini-Group & Personal English Lessons",
@@ -22,8 +22,8 @@ const resources = {
       about: {
         title: "About MYEnglish",
         intro: "Hi! I’m a certified English teacher helping students speak confidently — in a calm, friendly environment.",
-        desc1: "I’ve been teaching since 2020, I’m TESOL certified, and I have a degree in English/Linguistics.",
-        desc2: "The main format is offline mini-group lessons (max 4) in my office. Online lessons and personal 1:1 sessions are also available — we discuss and choose what fits your goals.",
+        desc1: "I’ve been teaching since 2020, I’m TESOL certified, and hold a degree in International Relations, with my education and professional experience conducted entirely in english. I've studied and lived abroad, worked in international companies, and use English as a real working tool - not just an academic subject.",
+        desc2: "The main format is offline mini-group lessons (max 4 students) in my office. Online lessons and personal 1:1 sessions are also available — we discuss and choose what fits your goals.",
         stat1: "Teaching since",
         stat2: "Mini-group size",
         stat3: "Lesson length"
@@ -44,7 +44,7 @@ const resources = {
         price: "2000 RUB",
         per_lesson: "per lesson",
         duration: "60 minutes",
-        format_primary_title: "Offline mini-group (max 4)",
+        format_primary_title: "Offline mini-group (4 students max)",
         format_primary_desc: "A small group in my office: more speaking, more motivation, friendly atmosphere.",
         format_other_title: "Online & 1:1 by arrangement",
         format_other_desc: "Online lessons or personal 1:1 sessions in the office can be discussed individually.",
@@ -60,14 +60,14 @@ const resources = {
       },
       audience: {
         title: "Who These Lessons Are For",
-        child: "Children (10+)",
+        child: "Children",
         teen: "Teenagers",
         adult: "Adults",
         levels: "From Beginner (A0) to Advanced"
       },
       certifications: {
         title: "Education & Certifications",
-        diploma: "Degree in English Linguistics",
+        diploma: "Degree in International Relations",
         tesol: "TESOL Certification"
       },
       reviews: {
@@ -91,7 +91,7 @@ const resources = {
           { title: "Mini-groups (max 4)", desc: "You get attention and speaking time — without the stress of a big class." },
           { title: "Offline office format", desc: "A focused space for learning, with all materials ready." },
           { title: "Flexible options", desc: "Online lessons and personal 1:1 sessions are available by arrangement." },
-          { title: "Experience since 2020", desc: "Certified TESOL teacher with a profile degree in English/Linguistics." }
+          { title: "Experience since 2020", desc: "Certified TESOL teacher with a degree in International Relations and experience in using the language." }
         ]
       },
       contact: {
@@ -125,7 +125,7 @@ const resources = {
       about: {
         title: "О MYEnglish",
         intro: "Привет! Я сертифицированный преподаватель английского и помогаю ученикам говорить уверенно — спокойно и по делу.",
-        desc1: "Преподаю с 2020 года. Есть сертификат TESOL и профильное образование (английский/лингвистика).",
+        desc1: "Преподаю с 2020 года. Имею сертификат TESOL и высшее образование по направлению Международные отношения, а также диплом MBA. Обучение и профессиональная деятельность проходили на английском языке. Я жил и учился за рубежом, работал в международной компании и успользую английский как рабочий инструмент, а не только как академический предмет",
         desc2: "Основной формат — офлайн мини‑группы (до 4 человек) в моём кабинете. Онлайн‑занятия и персональные уроки 1:1 тоже доступны — формат выбираем вместе под ваши цели.",
         stat1: "Опыт",
         stat2: "Мини‑группа",
@@ -147,7 +147,7 @@ const resources = {
         price: "2000 ₽",
         per_lesson: "за урок",
         duration: "60 минут",
-        format_primary_title: "Офлайн мини‑группа (до 4) ",
+        format_primary_title: "Офлайн мини‑группа (до 4 учеников) ",
         format_primary_desc: "Небольшая группа в кабинете: больше говорения, больше мотивации, дружелюбная атмосфера.",
         format_other_title: "Онлайн и 1:1 по договорённости",
         format_other_desc: "Онлайн‑занятия или персональные уроки 1:1 в кабинете — обсудим индивидуально.",
@@ -163,14 +163,14 @@ const resources = {
       },
       audience: {
         title: "Для кого эти уроки",
-        child: "Дети (10+)",
+        child: "Дети",
         teen: "Подростки",
         adult: "Взрослые",
         levels: "От нуля (A0) до продвинутого"
       },
       certifications: {
         title: "Образование и сертификаты",
-        diploma: "Диплом лингвиста",
+        diploma: "Диплом Международные Отношения",
         tesol: "Сертификат TESOL"
       },
       reviews: {
@@ -191,10 +191,10 @@ const resources = {
       whyme: {
         title: "Почему MYEnglish",
         reasons: [
-          { title: "Мини‑группы до 4", desc: "Достаточно внимания и времени на говорение — без \"толпы\"." },
+          { title: "Мини‑группы до 4 учеников", desc: "Достаточно внимания и времени на говорение — без \"толпы\"." },
           { title: "Офлайн в кабинете", desc: "Спокойное пространство для занятий, все материалы под рукой." },
           { title: "Гибкие варианты", desc: "Онлайн и персональные уроки 1:1 доступны по договорённости." },
-          { title: "Опыт с 2020", desc: "Сертификат TESOL и профильное образование (английский/лингвистика)." }
+          { title: "Опыт с 2020", desc: "Сертификат TESOL, диплом по направлению Международные отношения и MBA зарубежного ВУЗа." }
         ]
       },
       contact: {
@@ -203,7 +203,7 @@ const resources = {
         button: "Написать в Telegram"
       },
       footer: {
-        role: "Английский: мини‑группы (до 4) + онлайн / 1:1 по договорённости",
+        role: "Английский: мини‑группы (до 4 учеников) + онлайн / 1:1 по договорённости",
         copyright: "© 2026 MYEnglish. Все права защищены."
       }
     }
@@ -214,8 +214,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en", // default language
-    fallbackLng: "en",
+    lng: "ru", // default language
+    fallbackLng: "ru",
     interpolation: {
       escapeValue: false
     }
