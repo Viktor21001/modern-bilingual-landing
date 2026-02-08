@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Send, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import heroImage from '@assets/generated_images/friendly_online_english_tutor_teaching_a_lesson.png';
+const heroImage = "/assets/friendly_online_english_tutor_teaching_a_lesson.png";
 
 export default function Hero() {
   const { t } = useTranslation();

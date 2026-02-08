@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import tesolIcon from '@assets/generated_images/tesol_certificate_icon.png';
-import diplomaIcon from '@assets/generated_images/university_diploma_icon.png';
+const tesolIcon = "/assets/tesol_certificate_icon.png";
+const diplomaIcon = "/assets/university_diploma_icon.png";
 
 export default function Certifications() {
   const { t } = useTranslation();
