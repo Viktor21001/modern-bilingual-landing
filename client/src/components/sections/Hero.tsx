@@ -42,6 +42,7 @@ export default function Hero() {
               <Button size="lg" className="rounded-full w-full sm:w-auto text-base h-12 px-8" onClick={() => window.location.href = '#contact'}>
                 {t('hero.cta_trial')}
               </Button>
+              {/* TODO: Replace with your Telegram link */}
               <Button variant="outline" size="lg" className="rounded-full w-full sm:w-auto text-base h-12 px-8 gap-2 group" onClick={() => window.open('https://t.me/username', '_blank')}>
                 <Send className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 {t('hero.cta_contact')}

@@ -25,6 +25,7 @@ export default function Contact() {
               {t('contact.subtitle')}
             </p>
             
+            {/* TODO: Replace with your Telegram link */}
             <Button 
               size="lg" 
               className="h-14 px-10 rounded-full text-lg shadow-xl shadow-primary/25 hover:shadow-primary/40 transition-shadow"

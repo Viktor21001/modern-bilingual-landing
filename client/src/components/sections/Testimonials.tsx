@@ -23,6 +23,7 @@ type ReviewItem = {
   rating: number;
 };
 
+// TODO: Reviews file path (edit data here)
 const REVIEWS_URL = "/data/reviews.json";
 
 export default function Testimonials() {
@@ -45,6 +46,7 @@ export default function Testimonials() {
         const data = (await res.json()) as ReviewItem[];
         if (!Array.isArray(data)) return;
 
+        // TODO: Review text is loaded from the JSON file above
         const cleaned = data
           .filter((item) => item && item.name && item.text && item.role)
           .map((item) => ({

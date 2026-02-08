@@ -19,6 +19,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-center gap-4">
+            {/* TODO: Replace with your Telegram link */}
             <a 
               href="https://t.me/username" 
               target="_blank" 
@@ -32,6 +33,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
+             {/* TODO: Language switcher lives here */}
              <button 
               onClick={toggleLanguage}
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-white transition-colors"

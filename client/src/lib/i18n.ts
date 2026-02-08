@@ -1,6 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+// TODO: Main text content for all sections is stored here (RU/EN).
 const resources = {
   en: {
     translation: {
@@ -213,6 +214,7 @@ const resources = {
 i18n
   .use(initReactI18next)
   .init({
+    // TODO: Default language is set here.
     resources,
     lng: "ru", // default language
     fallbackLng: "ru",
