@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -8,10 +8,27 @@ export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   const toggleLanguage = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en');
   };
+
+  const toggleTheme = () => {
+    setIsDark((prev) => !prev);
+  };
+
+  useEffect(() => {
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+    const shouldUseDark = saved ? saved === 'dark' : prefersDark;
+    setIsDark(shouldUseDark);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  }, [isDark]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,7 +76,14 @@ export default function Navbar() {
               <Globe className="h-4 w-4" />
               <span>{i18n.language.toUpperCase()}</span>
             </button>
-            
+            <button
+              onClick={toggleTheme}
+              className="flex items-center justify-center h-9 w-9 rounded-full border border-secondary text-muted-foreground hover:text-primary transition-colors"
+              aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+              data-testid="toggle-theme"
+            >
+              <Moon className="h-4 w-4" />
+            </button>
             <Button className="rounded-full px-6" onClick={() => window.location.href = '#contact'} data-testid="button-nav-cta">
               {t('nav.book')}
             </Button>
@@ -74,6 +98,14 @@ export default function Navbar() {
             data-testid="toggle-language-mobile"
           >
             <span>{i18n.language.toUpperCase()}</span>
+          </button>
+          <button
+            onClick={toggleTheme}
+            className="flex items-center justify-center h-8 w-8 rounded-full border border-secondary text-muted-foreground"
+            aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+            data-testid="toggle-theme-mobile"
+          >
+            <Moon className="h-4 w-4" />
           </button>
           
           <button onClick={() => setIsOpen(!isOpen)} className="text-foreground">

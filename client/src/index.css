@@ -68,34 +68,41 @@
 }
 
 .dark {
-  /* Dark mode not explicitly requested but good to have prepared, using deep blues */
-  --background: 222 47% 11%;
-  --foreground: 210 40% 98%;
+  /* Темная тема: глубокие нейтральные оттенки с синим акцентом */
+  --background: 222 32% 10%;
+  --foreground: 210 40% 96%;
 
-  --card: 222 47% 10%; /* Slightly darker than bg */
-  --card-foreground: 210 40% 98%;
+  --card: 222 28% 14%;
+  --card-foreground: 210 40% 96%;
 
-  --popover: 222 47% 10%;
-  --popover-foreground: 210 40% 98%;
+  --popover: 222 28% 14%;
+  --popover-foreground: 210 40% 96%;
 
-  --primary: 199 89% 48%;
-  --primary-foreground: 222 47.4% 11.2%;
+  --primary: 199 89% 52%;
+  --primary-foreground: 222 32% 10%;
 
-  --secondary: 217.2 32.6% 17.5%;
-  --secondary-foreground: 210 40% 98%;
+  --secondary: 215 20% 18%;
+  --secondary-foreground: 210 40% 96%;
 
-  --muted: 217.2 32.6% 17.5%;
-  --muted-foreground: 215 20.2% 65.1%;
+  --muted: 215 20% 18%;
+  --muted-foreground: 215 20% 65%;
 
-  --accent: 217.2 32.6% 17.5%;
-  --accent-foreground: 210 40% 98%;
+  --accent: 215 20% 22%;
+  --accent-foreground: 210 40% 96%;
 
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 210 40% 96%;
 
-  --border: 217.2 32.6% 17.5%;
-  --input: 217.2 32.6% 17.5%;
-  --ring: 212.7 26.8% 83.9%;
+  --border: 215 20% 22%;
+  --input: 215 20% 22%;
+  --ring: 199 89% 52%;
+}
+
+/* Убираем белые фоны в темной теме */
+.dark .bg-white,
+.dark .bg-white\/70,
+.dark .bg-white\/95 {
+  background-color: hsl(var(--card)) !important;
 }
 
 @layer base {
