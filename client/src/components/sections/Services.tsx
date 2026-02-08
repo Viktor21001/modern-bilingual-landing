@@ -61,7 +61,7 @@ export default function Services() {
                   <p className="text-muted-foreground">{t('services.duration')}</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-3xl md:text-4xl font-bold text-primary">{t('services.price')}</div>
+                  <div className="text-2xl md:text-3xl font-bold text-primary whitespace-nowrap">{t('services.price')}</div>
                   <div className="text-sm text-muted-foreground">{t('services.per_lesson')}</div>
                 </div>
               </div>
