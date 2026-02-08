@@ -13,7 +13,7 @@ export default function Certifications() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('certifications.title')}</h2>
         </div>
 
-        <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-12 md:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 justify-items-center text-center">
           
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
@@ -21,7 +21,7 @@ export default function Certifications() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center group"
           >
-            <div className="w-48 h-48 md:w-64 md:h-64 mb-8 relative rounded-full bg-secondary/30 flex items-center justify-center p-8 transition-transform duration-500 group-hover:scale-105">
+            <div className="w-52 h-52 md:w-72 md:h-72 mb-8 relative rounded-full bg-transparent dark:bg-white flex items-center justify-center p-6 transition-transform duration-500 group-hover:scale-105">
               <img src={diplomaIcon} alt={t('certifications.diploma_alt')} className="w-full h-full object-contain drop-shadow-md" />
             </div>
             <h3 className="text-xl font-bold font-heading">{t('certifications.diploma')}</h3>
@@ -35,7 +35,7 @@ export default function Certifications() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center group"
           >
-            <div className="w-48 h-48 md:w-64 md:h-64 mb-8 relative rounded-full bg-secondary/30 flex items-center justify-center p-8 transition-transform duration-500 group-hover:scale-105">
+            <div className="w-52 h-52 md:w-72 md:h-72 mb-8 relative rounded-full bg-transparent dark:bg-white flex items-center justify-center p-6 transition-transform duration-500 group-hover:scale-105">
               <img src={tesolIcon} alt={t('certifications.tesol_alt')} className="w-full h-full object-contain drop-shadow-md" />
             </div>
             <h3 className="text-xl font-bold font-heading">{t('certifications.tesol')}</h3>
@@ -48,7 +48,7 @@ export default function Certifications() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center group"
           >
-            <div className="w-48 h-48 md:w-64 md:h-64 mb-8 relative rounded-full bg-secondary/30 flex items-center justify-center p-8 transition-transform duration-500 group-hover:scale-105">
+            <div className="w-52 h-52 md:w-72 md:h-72 mb-8 relative rounded-full bg-transparent dark:bg-white flex items-center justify-center p-6 transition-transform duration-500 group-hover:scale-105">
               <img src={diplomaIcon} alt={t('certifications.mba_alt')} className="w-full h-full object-contain drop-shadow-md" />
             </div>
             <h3 className="text-xl font-bold font-heading">{t('certifications.mba')}</h3>
