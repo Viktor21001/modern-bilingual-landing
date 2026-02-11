@@ -129,7 +129,9 @@ const resources = {
       },
       footer: {
         role: "English lessons: mini-groups (4 students max) + online / 1:1 by arrangement",
-        copyright: ""
+        copyright: "",
+        dev_by: "Website by Viktor Yeliseyev",
+        dev_tg: "Telegram - "
       }
     }
   },
@@ -259,7 +261,9 @@ const resources = {
       },
       footer: {
         role: "Английский: мини‑группы (до 4 учеников) + онлайн / 1:1 по договорённости",
-        copyright: ""
+        copyright: "",
+        dev_by: "Сайт разработал - Виктор Елисеев",
+        dev_tg: "Телеграм для связи - "
       }
     }
   }

@@ -47,8 +47,20 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-muted-foreground">
+        <div className="border-t border-white/10 mt-12 pt-6 text-center text-xs text-muted-foreground space-y-2">
           {t('footer.copyright')}
+          <div>{t('footer.dev_by')}</div>
+          <div>
+            {t('footer.dev_tg')}{" "}
+            <a
+              href="https://t.me/Morgan_Sw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-white transition-colors"
+            >
+              @Morgan_Sw
+            </a>
+          </div>
         </div>
       </div>
     </footer>
