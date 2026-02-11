@@ -5,6 +5,9 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: {
+      brand: {
+        name_suffix: "English Club"
+      },
       nav: {
         about: "About",
         process: "Process",
@@ -14,7 +17,7 @@ const resources = {
         book: "Book a Lesson"
       },
       hero: {
-        title: "MY English Club — Mini-Group & Personal English Lessons",
+        title_suffix: "— Mini-Group & Personal English Lessons",
         subtitle: "Join cozy offline mini-groups (up to 4 people) in my office. Need online or 1:1? We can arrange it individually.",
         experience: "Teaching since 2020",
         cta_trial: "Book a Free Trial Lesson",
@@ -27,7 +30,7 @@ const resources = {
         badge_subtitle: "Up to 4 students"
       },
       about: {
-        title: "About MY English Club",
+        title_prefix: "About",
         intro: "Hi! I’m a certified English teacher helping students speak confidently — in a calm, friendly environment.",
         desc1: "I’ve been teaching since 2020, I’m TESOL certified, and hold a degree in International Relations, with my education and professional experience conducted entirely in english. I've studied and lived abroad, worked in international companies, and use English as a real working tool - not just an academic subject.",
         desc2: "The main format is offline mini-group lessons (max 4 students) in my office. Online lessons and personal 1:1 sessions are also available — we can discuss and choose what fits your goals.",
@@ -55,7 +58,7 @@ const resources = {
         price: "2000 RUB",
         per_lesson: "per lesson",
         duration: "60 minutes",
-        format_primary_title: "Offline mini-group (4 students max)",
+        format_primary_title: "Offline mini-group \n(4 students max)",
         format_primary_desc: "A small group in my office: more speaking, more motivation, friendly atmosphere.",
         format_other_title: "Online & 1:1 by arrangement",
         format_other_desc: "Online lessons or personal 1:1 sessions in the office can be discussed individually.",
@@ -111,7 +114,7 @@ const resources = {
         }
       },
       whyme: {
-        title: "Why Choose MY English Club",
+        title_prefix: "Why Choose",
         reasons: [
           { title: "Mini-groups (4 students max)", desc: "You get attention and speaking time — without the stress of a big class." },
           { title: "Offline office format", desc: "A focused space for learning, with all materials ready." },
@@ -132,6 +135,9 @@ const resources = {
   },
   ru: {
     translation: {
+      brand: {
+        name_suffix: "English Club"
+      },
       nav: {
         about: "Обо мне",
         process: "Как проходит",
@@ -141,7 +147,7 @@ const resources = {
         book: "Пробный урок"
       },
       hero: {
-        title: "MY English Club — Мини‑группы и персональные уроки английского",
+        title_suffix: "— Мини‑группы и персональные уроки английского",
         subtitle: "Основной формат — офлайн мини‑группы до 4 человек. Онлайн и 1:1 тоже возможны — обсудим индивидуально.",
         experience: "Опыт с 2020 года",
         cta_trial: "Записаться на бесплатный пробный урок",
@@ -154,7 +160,7 @@ const resources = {
         badge_subtitle: "До 4 учеников"
       },
       about: {
-        title: "О MY English Club",
+        title_prefix: "О",
         intro: "Привет! Я сертифицированный преподаватель английского и помогаю ученикам говорить уверенно — спокойно и по делу.",
         desc1: "Преподаю с 2020 года. Имею сертификат TESOL и высшее образование по направлению Международные отношения, а также диплом MBA. Обучение и профессиональная деятельность проходили на английском языке. Я жил и учился за рубежом, работал в международной компании и использую английский как рабочий инструмент, а не только как академический предмет",
         desc2: "Основной формат — офлайн мини‑группы (до 4 человек) в комфортабельном офисе. Онлайн‑занятия и персональные уроки 1:1 тоже доступны — формат выбираем вместе под ваши цели.",
@@ -178,9 +184,9 @@ const resources = {
       },
       services: {
         title: "Форматы и стоимость",
-        subtitle: "Выберите формат: офлайн мини‑группы (до 4 человек) или онлайн / 1:1 по договоренности.",
+        subtitle: "Выберите формат: офлайн мини‑группы \n(до 4 человек) или онлайн / 1:1 по договоренности.",
         price: "2000 ₽",
-        per_lesson: "за урок",
+        per_lesson: "за урок (60 мин)",
         duration: "60 минут",
         format_primary_title: "Офлайн мини‑группа (до 4 учеников) ",
         format_primary_desc: "Небольшая группа: больше говорения, больше мотивации, дружелюбная атмосфера.",
@@ -238,7 +244,7 @@ const resources = {
         }
       },
       whyme: {
-        title: "Почему MY English Club",
+        title_prefix: "Почему",
         reasons: [
           { title: "Мини‑группы до 4 учеников", desc: "Достаточно внимания и времени на говорение — без \"толпы\"." },
           { title: "Офлайн в комфортабельном офисе", desc: "Спокойное пространство для занятий, все материалы под рукой." },

@@ -14,7 +14,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
           <div className="text-center md:text-left">
-            <h3 className="font-heading font-bold text-2xl mb-2">MY English Club</h3>
+            <h3 className="font-heading font-bold text-2xl mb-2">
+              <span className="text-primary">M.Y.</span> English Club
+            </h3>
             <p className="text-muted-foreground" data-testid="text-footer-role">{t('footer.role')}</p>
           </div>
 

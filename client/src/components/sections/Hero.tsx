@@ -31,7 +31,9 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              {t('hero.title')}
+              <span className="text-primary">M.Y.</span>{" "}
+              <span className="text-foreground">{t('brand.name_suffix')}</span>{" "}
+              <span className="text-foreground">{t('hero.title_suffix')}</span>
             </h1>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">

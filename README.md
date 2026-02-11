@@ -1,4 +1,4 @@
-# MY English Club Landing
+# M.Y. English Club Landing
 
 Одностраничный статический лендинг для преподавателя английского.  
 Проект на Vite + React + Tailwind, без сервера и базы данных.

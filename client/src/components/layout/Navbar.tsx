@@ -55,7 +55,7 @@ export default function Navbar() {
             <span className="text-foreground">Английский Клуб</span>
           </span>
           <span className="block font-bold">
-            <span className="text-primary">MY</span>{" "}
+            <span className="text-primary">M.Y.</span>{" "}
             <span className="text-foreground">English Club</span>
           </span>
         </a>

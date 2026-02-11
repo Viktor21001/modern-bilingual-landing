@@ -21,7 +21,9 @@ export default function About() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-6 text-foreground"
           >
-            {t('about.title')}
+            {t('about.title_prefix')}{" "}
+            <span className="text-primary">M.Y.</span>{" "}
+            <span className="text-foreground">{t('brand.name_suffix')}</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
