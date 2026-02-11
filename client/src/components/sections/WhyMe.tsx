@@ -14,7 +14,7 @@ export default function WhyMe() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             {t('whyme.title_prefix')}{" "}
-            <span className="text-white">M.Y.</span>{" "}
+            <span className="text-white dark:text-primary">M.Y.</span>{" "}
             <span className="text-white">{t('brand.name_suffix')}</span>
           </h2>
         </div>

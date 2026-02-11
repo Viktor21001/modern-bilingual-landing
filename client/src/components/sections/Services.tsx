@@ -35,7 +35,7 @@ export default function Services() {
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="bg-white/70 border rounded-2xl p-5">
-                  <div className="text-sm font-semibold text-primary mb-1">{t('services.format_primary_title')}</div>
+                  <div className="text-sm font-semibold text-primary mb-1 whitespace-pre-line">{t('services.format_primary_title')}</div>
                   <div className="text-sm text-muted-foreground">{t('services.format_primary_desc')}</div>
                 </div>
                 <div className="bg-white/70 border rounded-2xl p-5">
@@ -57,12 +57,12 @@ export default function Services() {
             <div className="relative bg-white border rounded-3xl p-8 md:p-10 shadow-xl">
               <div className="flex justify-between items-start mb-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground">{t('services.format_primary_title')}</h3>
-                  <p className="text-muted-foreground">{t('services.duration')}</p>
+                  <h3 className="text-2xl font-bold text-foreground whitespace-pre-line">{t('services.format_primary_title')}</h3>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl md:text-3xl font-bold text-primary whitespace-nowrap">{t('services.price')}</div>
                   <div className="text-sm text-muted-foreground">{t('services.per_lesson')}</div>
+                  <div className="text-sm text-muted-foreground">{t('services.duration')}</div>
                 </div>
               </div>
 
