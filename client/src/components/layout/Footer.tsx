@@ -1,3 +1,4 @@
+// src/components/layout/Footer.tsx
 import { useTranslation } from 'react-i18next';
 import { Send, Globe } from 'lucide-react';
 import VisitorCounter from '@/components/ui/VisitorCounter';
@@ -14,7 +15,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           
-          {/* Левая часть */}
+          {/* Левая часть — без изменений */}
           <div className="text-center md:text-left">
             <h3 className="font-heading font-bold text-2xl mb-2">
               <span className="text-primary">M.Y.</span> English Club
@@ -38,9 +39,9 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Правая часть — СЧЁТЧИК + переключатель языка */}
+          {/* ПРАВАЯ ЧАСТЬ — СЧЁТЧИК + ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА */}
           <div className="flex items-center gap-6">
-            <VisitorCounter />               {/* ← счётчик слева от глобуса */}
+            <VisitorCounter />               {/* ← красивый badge с числом */}
             <button 
               onClick={toggleLanguage}
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-white transition-colors"
@@ -52,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
         
-         {/* Нижний колонтитул — без изменений */}
+        {/* Копирайт — без изменений */}
         <div className="border-t border-white/10 mt-12 pt-6 text-center text-xs text-muted-foreground space-y-2">
           {t('footer.copyright')}
           <div>{t('footer.dev_by')}</div>
