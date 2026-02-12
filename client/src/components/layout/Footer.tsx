@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Send, Globe } from 'lucide-react';
-import VisitorCounter from '@/components/ui/VisitorCounter'; // импорт
+import VisitorCounter from '@/components/ui/VisitorCounter';
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
