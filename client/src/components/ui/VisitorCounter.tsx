@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Counter } from 'counterapi';
 
 interface VisitorCounterProps {
   className?: string;
@@ -10,26 +9,24 @@ export default function VisitorCounter({ className = '' }: VisitorCounterProps) 
   const [error, setError] = useState<boolean>(false);
 
   useEffect(() => {
-    const counterClient = new Counter({
-      version: 'v1',
-      namespace: 'my-english-online',
-      debug: process.env.NODE_ENV === 'development',
-    });
+    const namespace = 'my-english-online';
+    const key = 'visitors';
+    const url = `https://api.countapi.xyz/hit/${encodeURIComponent(namespace)}/${encodeURIComponent(key)}`;
 
-    counterClient
-      .up('visitors')
-      .then((result) => {
-        if (result && typeof result.value === 'number') {
-          setCount(result.value);
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && typeof data.value === 'number') {
+          setCount(data.value);
         } else {
           setError(true);
         }
       })
       .catch((err) => {
-        console.error('CounterAPI error:', err);
+        console.error('Visitor counter error:', err);
         setError(true);
       });
-  }, []); // Один раз при монтировании
+  }, []);
 
   if (count === null && !error) {
     return null;
