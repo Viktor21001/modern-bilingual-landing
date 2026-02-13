@@ -125,7 +125,14 @@ const resources = {
       contact: {
         title: "Let’s pick the right format",
         subtitle: "Message me on Telegram to book your free trial lesson and discuss: mini-group in the office, online, or 1:1.",
-        button: "Message on Telegram"
+        button: "Message on Telegram",
+        map_button: "How to find us",
+        map_title: "How to find us",
+        map_address_label: "Address",
+        map_address_value: "New Vnukovo ЖК, Aerostatnaya street 6 bldg 1, 108809, Moscow, Vnukovo",
+        map_telegram_label: "Telegram",
+        map_note_label: "Note",
+        map_note_value: "Please contact in advance to confirm availability"
       },
       footer: {
         role: "English lessons: mini-groups (4 students max) + online / 1:1 by arrangement",
@@ -257,7 +264,14 @@ const resources = {
       contact: {
         title: "Давайте выберем формат",
         subtitle: "Напишите мне в Telegram, чтобы записаться на бесплатный пробный урок и обсудить: мини‑группа, онлайн или 1:1.",
-        button: "Написать в Telegram"
+        button: "Написать в Telegram",
+        map_button: "Как найти нас",
+        map_title: "Как найти нас",
+        map_address_label: "Адрес",
+        map_address_value: "ЖК Новое Внуково, Аэростатная улица, 6 к1, 108809, Москва, Внуково, 14 этажей",
+        map_telegram_label: "Телеграм",
+        map_note_label: "Примечание",
+        map_note_value: "Пишите заранее, чтобы согласовать время"
       },
       footer: {
         role: "Английский: мини‑группы (до 4 учеников) + онлайн / 1:1 по договорённости",
